@@ -4,16 +4,15 @@
 #                                                                       #
 #########################################################################
 
-
 Presentation
 ------------
-The Phopshore project is a tiny 3D graphics engine distributed under LGPL 
-license. You can load 3D objetcs from files (for the moment, only PLY
-format is supported) and translate, rotate, scale them independently.
-
+Phopshore is yet another minimalistic 3D graphics engine distributed 
+under GPL v3.0 license. Phong's rendering is used with uniform material 
+and a single light located at long range distance. Handcrafted objects 
+are avalailable or can be loaded (PLY and OBJ formats are only currently 
+only available).
 
 Compiling
 ---------
-This project is written in Java language. It's strongly recommended to use 
-a compiler version >= 1.5. Then, you can compile the project by typing 
-"make && java Main" in a terminal.
+This project is written in Java. It is strongly recommended to use a 
+compiler whose version is above 1.5.
